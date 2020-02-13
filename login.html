@@ -1,0 +1,97 @@
+<title>Login • Quantumapp</title>
+<p>&nbsp</p>
+<p>&nbsp</p>
+<p>&nbsp</p>
+<style>
+
+header {
+color: white;
+font-family:font-family: Verdana, Geneva, sans-serif;
+}
+body {
+ background-color: #2e313d;    
+}
+
+   .form-login {
+       border-style: solid;
+       border-radius: 6px 6px 6px 6px;
+       border-color: Black;
+       background-color: #36363D;
+       color: white;
+       width: 500px;
+       height: 350px;
+       border-width: 1px;
+
+      padding: 40px 0;
+
+  text-align: center;
+   } 
+   .form-login input {
+       
+       border-radius: 5px 5px 5px 5px;
+       border-style:solid;
+       border-width: 1px;
+       width: 400px;
+       color: white;
+       border-color: black;
+       height: 45;
+       background-color: #2e313d;
+       font-family: Verdana, Geneva, sans-serif;
+        transition: all 0.2s ease-in-out;
+  
+   }
+   .form-login input[type=textarea] {
+   text-indent: 50px;
+   
+   }
+      .form-login input:hover {
+       text-decoration: none;
+
+
+
+ color: rgba(255, 255, 255, 1);
+ border-color: #7289da;
+
+      
+   }
+   .form-login a {
+       color: #7289da;
+       font-size: 14;
+   }
+   
+    
+</style>
+<header>
+
+</header>
+<center>
+<div class="form-login">
+    <h1>Login</h1>
+<form  method="post">
+    <input type="email"  required="true" alt="Enter Email" placeholder="Enter Email" maxlength="45" style="text-indent: 5px;"> </input><p>&nbsp</p>
+  <input type="password" maxlength="53" required="true" placeholder="Enter Password" style="text-indent: 5px;"></input><p>&nbsp</p><input type="submit" style="background-color:#7289da; color: white; border-width: 0;"></input>
+  <p><a href="/forgot">Forgot Password?</a></p>
+    
+</form>
+</center>
+
+
+
+
+<script>
+var name = document.getElementById("usrname");
+if (name.value != name.defaultValue) alert("#name has changed");
+</script>
+
+<script type="text/javascript" src="http://www.openjs.com/scripts/events/keyboard_shortcuts/shortcut.js"></script>
+
+<script>
+
+
+shortcut.add("Ctrl+B", 
+2	function() { 
+3	alert("The bookmarks of your browser will show up after this alert"); 
+4	}, 
+5	{ 'type':'keydown', 'propagate':true, 'target':document} 
+6	);  
+</script>

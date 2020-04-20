@@ -3,7 +3,7 @@ body {
   text-rendering: optimizeLegibility;
   font-family: "proxima-nova-soft", sans-serif;
   -webkit-user-select: none;
-  overflow: hidden;
+
 }
 body .vertical-centered-box {
   position: absolute;
@@ -55,7 +55,7 @@ body {
   height: 120px;
   margin-left: -60px;
   margin-top: -60px;
-  overflow: hidden;
+
   -webkit-transform-origin: 60px 60px;
   -moz-transform-origin: 60px 60px;
   -ms-transform-origin: 60px 60px;
